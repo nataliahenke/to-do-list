@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Titillium+Web&display=swap"
+      rel="stylesheet"
+    />
+    <title>Lista de afazeres</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Lista de afazeres</h1>
+      <button>Adicionar tarefa</button>
+    </header>
+    <main>
+      <form>
+        <input
+          id="nova-atividade"
+          type="text"
+          required
+          placeholder="Digite sua tarefa"
+        />
+        <button class="botao-adicionar" type="submit">Cadastrar</button>
+        <button class="botao-cancelar" type="reset">Cancelar</button>
+      </form>
+      <ul id="lista">
+        <li class="checked">Ir ao mercado</li>
+        <li>Enviar e-mail</li>
+        <li>Lavar roupas</li>
+        <li>Marcar reunião</li>
+      </ul>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
